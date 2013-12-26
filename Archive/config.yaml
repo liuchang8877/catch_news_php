@@ -1,0 +1,9 @@
+---
+appname: orange2014
+version: 1
+
+cron:
+    - description: phpBackGround
+    url: simplehtmldom_1_5/newsType/phpBackGround.php
+    schedule: every day of month 5:05
+...
