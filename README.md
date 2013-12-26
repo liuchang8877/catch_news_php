@@ -3,8 +3,9 @@ catch_news_php
 QQ交流群：323783445
 //用了PHP simplehtmldom 库
 SQL：
-//对应数据表
-1.新闻主表
+//对应数据表1.新闻主表
+
+
 create table lolnews (
 newsID        int(255) auto_increment primary key,
 title              varchar(300),
