@@ -32,5 +32,14 @@ updateID       varchar(30)
 //单个新闻展示
 http://1.orange2014.sinaapp.com/simplehtmldom_1_5/newsType/show_news.php?updateID=**
 
-//这个路径是json串
-http://1.orange2014.sinaapp.com/simplehtmldom_1_5/newsType/ios_getNews.php
+//这个路径是json串 location 是分页查询
+http://1.orange2014.sinaapp.com/simplehtmldom_1_5/newsType/ios_getNews.php?location=**
+
+//是定时触发的入口，可以手动
+http://1.orange2014.sinaapp.com/simplehtmldom_1_5/newsType/phpBackGround.php
+
+//获得新闻主体
+http://1.orange2014.sinaapp.com/simplehtmldom_1_5/newsType/get_tgbusnews.php
+
+//获得新闻
+http://1.orange2014.sinaapp.com/simplehtmldom_1_5/newsType/get_lolqqnews_detail.php
